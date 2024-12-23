@@ -5,9 +5,9 @@ import TextAboutHome from './TextAboutHome';
 const AboutHome = () => {
     return (
         <>
-        <section id="About" className='w-full h-auto bg-white'>
+        <section id="About" className='w-full h-auto bg-white dark:bg-slate-dark'>
 
-            <div className='flex flex-col flex-nowrap items-center justify-center gap-[15px] w-full t:max-w-[650px] h-auto mx-auto px-[20px] py-[30px] bg-white'>
+            <div className='flex flex-col flex-nowrap items-center justify-center gap-[15px] w-full t:max-w-[650px] h-auto mx-auto px-[20px] py-[30px]'>
 
                 <h1 className='w-full font-Syne font-[900] text-sky hover:text-sky-dark text-[1rem] g:text-[1.2rem] t:text-[1.4rem] l:text-[1.6rem] text-left transition .3s'>Tourfy</h1>
 

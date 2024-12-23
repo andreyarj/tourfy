@@ -12,7 +12,7 @@ import Cairo from './../../../img/Citys/Cairo.jpg';
 const CitysHome = () => {
     return (
         <>
-        <section id="Citys" className='w-full h-auto bg-white'>
+        <section id="Citys" className='w-full h-auto bg-white dark:bg-slate-dark'>
 
             <div className='grid grid-cols-4 grid-rows-3 gap-[10px] w-full g:max-w-[500px] h-[330px] px-[20px] py-[30px] mx-auto'>
 

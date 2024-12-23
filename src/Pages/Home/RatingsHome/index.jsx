@@ -10,7 +10,7 @@ import RatingIcon4 from './../../../img/Ratings/User4.jpg';
 const RatingsHome = () => {
     return (
         <>
-        <section id="Ratings" className='w-full h-auto bg-white'>
+        <section id="Ratings" className='w-full h-auto bg-white dark:bg-slate-dark'>
 
             <div className='scroll-pl-[20px] snap-mandatory snap-x overflow-x-scroll flex flex-row flex-nowrap items-center justify-start gap-[20px] w-full t:max-w-[650px] h-auto mx-auto px-[20px] py-[30px]'>
 

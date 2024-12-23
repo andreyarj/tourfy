@@ -5,7 +5,7 @@ import FaqHome from './FaqHome';
 const FaqsHome = () => {
     return (
         <>
-        <section id="Faqs" className='w-full h-auto bg-white'>
+        <section id="Faqs" className='w-full h-auto bg-white dark:bg-slate-dark'>
 
             <div className='flex flex-col flex-nowrap items-center justify-center gap-[20px] w-full t:max-w-[650px] h-auto mx-auto px-[20px] py-[30px]'>
 
