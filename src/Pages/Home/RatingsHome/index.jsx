@@ -2,7 +2,10 @@ import React from 'react';
 
 import RatingHome from './RatingHome';
 
-import RatingIcon from './../../../img/Ratings/User.jpg'
+import RatingIcon from './../../../img/Ratings/User.jpg';
+import RatingIcon2 from './../../../img/Ratings/User2.jpg';
+import RatingIcon3 from './../../../img/Ratings/User3.jpg';
+import RatingIcon4 from './../../../img/Ratings/User4.jpg';
 
 const RatingsHome = () => {
     return (
@@ -13,11 +16,11 @@ const RatingsHome = () => {
 
                 <RatingHome Icon={RatingIcon} Name='Julia' Surname='Martins' Paragraf='O site é fantástico! Consegui organizar toda a minha viagem com facilidade, Me ajudaram a economizar tempo e dinheiro, Recomendo demais!'/>
 
-                <RatingHome Icon={RatingIcon} Name='Julia' Surname='Martins' Paragraf='O site é fantástico! Consegui organizar toda a minha viagem com facilidade, Me ajudaram a economizar tempo e dinheiro, Recomendo demais!'/>
+                <RatingHome Icon={RatingIcon2} Name='Camila' Surname='Souza' Paragraf='As sugestões de destinos foram perfeitas! Encontrei lugares que nunca teria pensado em visitar, Vocês transformaram minha viagem em uma experiência inesquecível!'/>
 
-                <RatingHome Icon={RatingIcon} Name='Julia' Surname='Martins' Paragraf='O site é fantástico! Consegui organizar toda a minha viagem com facilidade, Me ajudaram a economizar tempo e dinheiro, Recomendo demais!'/>
+                <RatingHome Icon={RatingIcon3} Name='Ricardo' Surname='Oliveira' Paragraf='Simplesmente incrível! As promoções de passagens e hotéis são imperdíveis, E o suporte ao cliente foi muito atencioso, Já virei fã!'/>
 
-                <RatingHome Icon={RatingIcon} Name='Julia' Surname='Martins' Paragraf='O site é fantástico! Consegui organizar toda a minha viagem com facilidade, Me ajudaram a economizar tempo e dinheiro, Recomendo demais!'/>
+                <RatingHome Icon={RatingIcon4} Name='Felipe' Surname='Santana' Paragraf='Muito obrigado por todo o conteúdo de qualidade, Planejei uma viagem dos sonhos usando o site e tudo saiu perfeito, Com certeza voltarei aqui para as próximas aventuras!'/>
 
             </div>
 

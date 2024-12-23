@@ -3,7 +3,7 @@ import React from 'react';
 const RatingHome = ({Icon, Name, Surname, Paragraf}) => {
     return (
         <>
-        <div className='snap-start flex flex-col flex-nowrap items-center justify-center gap-[5px] min-w-[280px] g:min-w-[320px] t:min-w-[350px] h-[170px] g:min-h-[180px] t:min-h-[200px] p-[10px] bg-white shadow-xl hover:shadow-2xl rounded-[10px] transition .3s'>
+        <div className='snap-start flex flex-col flex-nowrap items-center justify-start gap-[5px] min-w-[280px] g:min-w-[320px] t:min-w-[350px] h-[170px] g:min-h-[180px] t:min-h-[200px] p-[10px] bg-white shadow-xl hover:shadow-2xl rounded-[10px] transition .3s'>
 
             <div className='flex flex-row flex-nowrap items-center justify-center gap-[10px] w-full h-auto'>
 
@@ -19,7 +19,7 @@ const RatingHome = ({Icon, Name, Surname, Paragraf}) => {
 
             </div>
 
-            <p className='w-full font-Syne font-[700] text-slate-dark text-justify text-[.8rem] g:text-[.9rem] t:text-[1rem]'>{Paragraf}</p>
+            <p className='w-full h-full font-Syne font-[700] text-slate-dark text-justify text-[.8rem] g:text-[.9rem] t:text-[1rem]'>{Paragraf}</p>
 
         </div>
         </>
