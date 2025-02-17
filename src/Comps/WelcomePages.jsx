@@ -6,7 +6,7 @@ const WelcomePages = ({Title, Description }) => {
 
             <h1 className='w-full h-auto font-Syne font-[900] text-[1rem] t:text-[1.4rem] text-sky text-left' >{Title}</h1>
 
-            <p className='w-full h-auto font-Syne font-[700] text-[.8rem] t:text-[1rem] text-slate-dark text-left' >{Description}</p>
+            <p className='w-full h-auto font-Syne font-[700] text-[.8rem] t:text-[1rem] text-slate-dark dark:text-white text-left' >{Description}</p>
 
         </section>
     );

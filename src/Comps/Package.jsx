@@ -10,7 +10,7 @@ const Package = ({ Imagem , Name , Description , Value }) => {
 
             <p className='w-full h-[100px] t:h-[125px] font-Syne font-[700] text-slate-dark dark:text-white text-[.8rem] t:text-[1rem]'>{Description}</p>
 
-            <p className='w-full h-[35px] t:h-[25px] font-Syne font-[700] text-slate-dark dark:text-white text-[.8rem] t:text-[1rem]'>Passagem a <span className='font-[900] text-sky'>{Name}</span> por <span className='font-[900] text-sky'>€{Value}</span></p>
+            <p className='w-full h-[35px] t:h-[45px] font-Syne font-[700] text-slate-dark dark:text-white text-[.8rem] t:text-[1rem]'>Passagem a <span className='font-[900] text-sky'>{Name}</span> por <span className='font-[900] text-sky'>€{Value}</span></p>
 
             <button type="submit" className='w-full h-auto font-Syne py-[15px] font-[900] bg-sky hover:bg-sky-dark transition .3s text-white rounded-[10px]'>Viajar</button>
 
