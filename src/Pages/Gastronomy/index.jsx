@@ -4,6 +4,7 @@ import HeaderGastronomy from './HeaderGastronomy';
 import WelcomePages from './../../Comps/WelcomePages';
 import Scroll from '../../Comps/Scroll';
 import Package from '../../Comps/Package';
+import Categories from './../../Comps/Categories';
 
 import PAR from './../../img/Paises/França/Paris.jpg';
 import LYO from './../../img/Paises/França/Lyon.jpg';
@@ -16,6 +17,10 @@ import NAP from './../../img/Paises/Italia/Nápoles.jpg';
 import MAD from './../../img/Paises/Espanha/Madrid.jpg';
 import BAR from './../../img/Paises/Espanha/Barcelona.jpg';
 import SEV from './../../img/Paises/Espanha/Sevilha.jpg';
+
+import BUD from './../../img/Paises/Hungria/Budapeste.jpg';
+import DEB from './../../img/Paises/Hungria/Debrecen.jpg';
+import MIS from './../../img/Paises/Hungria/Miskolc.jpg';
 
 const Gastronomy = () => {
     return (
@@ -45,6 +50,16 @@ const Gastronomy = () => {
                 <Package Imagem={SEV} Name='Sevilha' Description='Sevilha é uma cidade histórica cheia de charme, com belas praças, flamenco e a impressionante arquitetura da Alhambra.' Value='700'/>
             </>
         }/>
+
+        <Scroll Title='Gastronomia Hungriana' IdSection='gastronomyHungriana' Content={
+            <>
+                <Package Imagem={BUD} Name='Budapeste' Description='Budapeste, a capital da Hungria, é um destino sofisticado com hotéis luxuosos, banhos termais elegantes e restaurantes refinados.' Value='1.000'/>
+                <Package Imagem={DEB} Name='Debrecen' Description='Debrecen é uma cidade universitária e cultural, com atrações históricas e custo de vida acessível.' Value='700'/>
+                <Package Imagem={MIS} Name='Miskolc' Description='Miskolc é uma cidade com custo de vida baixo, rica em belezas naturais e atrações históricas.' Value='700'/>
+            </>
+        }/>
+
+        <Categories />
 
         </>
     );

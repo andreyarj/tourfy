@@ -10,6 +10,7 @@ import EU from './../img/Paises/Icons/Eua.png';
 import FR from './../img/Paises/Icons/Franca.png';
 import GR from './../img/Paises/Icons/Grecia.png';
 import HO from './../img/Paises/Icons/Holanda.png';
+import HU from './../img/Paises/Icons/Hungria.png';
 import IT from './../img/Paises/Icons/Italia.png';
 import JP from './../img/Paises/Icons/Japao.png';
 import PT from './../img/Paises/Icons/Portugal.png';
@@ -35,6 +36,7 @@ const Countries = () => {
                 <Countrie Icon={FR}/>
                 <Countrie Icon={GR}/>
                 <Countrie Icon={HO}/>
+                <Countrie Icon={HU}/>
                 <Countrie Icon={IT}/>
                 <Countrie Icon={JP}/>
                 <Countrie Icon={PT}/>
