@@ -27,7 +27,7 @@ const Gastronomy = () => {
         <>
         <HeaderGastronomy />
         <WelcomePages Title='Ola User, Seja bem vindo!' Description='As Melhores cidades para viajar e experimentar seus vinhos e gastronomias.'/>
-        <Scroll Title='Gastronomia França' IdSection='gastronomyFrance' Content={
+        <Scroll Title='Gastronomia França' IdSection='gastronomyfrance' Content={
             <>
                 <Package Imagem={PAR} Name='Paris' Description='Capital icônica da França, Paris é conhecida por sua elegância, moda, gastronomia requintada e pontos turísticos como a Torre Eiffel e o Louvre.' Value='1500'/>    
                 <Package Imagem={LYO} Name='Lyon' Description='Cidade histórica e gastronômica, Lyon é famosa por sua culinária, ruas charmosas e influência romana.' Value='900'/>
@@ -35,7 +35,7 @@ const Gastronomy = () => {
             </>
         }/>
 
-        <Scroll Title='Gastronomia Italiana' IdSection='gastronomyItaliane' Content={
+        <Scroll Title='Gastronomia Italiana' IdSection='gastronomyitaliane' Content={
             <>
                 <Package Imagem={MIL} Name='Milão' Description='Milão é a capital da moda e do luxo na Itália, conhecida por suas boutiques exclusivas, gastronomia refinada e arquitetura imponente.' Value='1.300'/>
                 <Package Imagem={NAP} Name='Nápoles' Description='Nápoles é uma cidade vibrante e autêntica, famosa por sua pizza, seu centro histórico e suas belas paisagens à beira-mar.' Value='1.000'/>
@@ -43,7 +43,7 @@ const Gastronomy = () => {
             </>
         }/>
 
-        <Scroll Title='Gastronomia Espanhola' IdSection='gastronomyEspanha' Content={
+        <Scroll Title='Gastronomia Espanhola' IdSection='gastronomyespanha' Content={
             <>
                 <Package Imagem={BAR} Name='Barcelona' Description='Barcelona é famosa por suas, praias deslumbrantes e vida noturna vibrante, combinando tradição e modernidade em uma cidade de classe mundial.' Value='1.200'/>
                 <Package Imagem={MAD} Name='Madrid' Description='A capital espanhola é rica em cultura e história, com atrações como o Museu do Prado, o Palácio Real e uma vida urbana animada.' Value='1.000'/>

@@ -47,7 +47,7 @@ const Family = () => {
                 <Package Imagem={SAN} Name='San Diego' Description='San Diego oferece belas praias, zoológico mundialmente famoso e clima perfeito para uma viagem relaxante em família.' Value='1.100'/>
                 <Package Imagem={WHA} Name='Washington' Description='Washington, D.C. é um destino familiar acessível, com museus gratuitos, monumentos históricos e belos parques.' Value='700'/>
             </>
-        }/><Scroll Title='Familiar ' IdSection='family' Content={
+        }/><Scroll Title='Familiar Holanda' IdSection='familyholanda' Content={
             <>
                 <Package Imagem={AMS} Name='Amsterdã' Description='Amsterdã oferece uma experiência sofisticada para famílias, com canais charmosos, museus icônicos e hotéis luxuosos.' Value='1.700'/>    
                 <Package Imagem={ROT} Name='Roterdã' Description='Roterdã é uma cidade moderna, com arquitetura inovadora, atrações interativas para crianças e preços acessíveis.' Value='1.300'/>
