@@ -7,6 +7,7 @@ import Dashboard from './Pages/Dashboard';
 import Gastronomy from './Pages/Gastronomy';
 import Family from './Pages/Family';
 import History from './Pages/History';
+import Profile from './Pages/Profile';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/dashboard/gastronomy" element={<Gastronomy />} />
         <Route path="/dashboard/family" element={<Family />} />
         <Route path="/dashboard/history" element={<History />} />
+        <Route path='/dashboard/profile' element={<Profile />}/>
       </Routes>
     </Router>
     </>

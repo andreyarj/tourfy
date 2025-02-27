@@ -1,6 +1,6 @@
 import React from 'react';
 
-import HeaderDashboard from './HeaderDashboard';
+import HeaderPages from '../../Comps/HeaderPages';
 import Scroll from '../../Comps/Scroll';
 
 import MAD from './../../img/Paises/Espanha/Madrid.jpg';
@@ -45,7 +45,7 @@ import Countries from '../../Comps/Countries';
 const Dashboard = () => {
     return (
         <>
-        <HeaderDashboard />
+        <HeaderPages />
         <WelcomePages Title='Ola User, Seja bem vindo!' Description='Escolha seu destino e faça a melhor viajem de sua vida, Aproveite as ofertas e promoções.'/>
         <Scroll Title='Promoções' IdSection='proms' Content={
             <>

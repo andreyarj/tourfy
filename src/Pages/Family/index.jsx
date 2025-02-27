@@ -1,6 +1,6 @@
 import React from 'react';
 
-import HeaderFamily from './HeaderFamily';
+import HeaderPages from '../../Comps/HeaderPages';
 import WelcomePages from '../../Comps/WelcomePages';
 import Scroll from '../../Comps/Scroll';
 import Package from '../../Comps/Package';
@@ -25,7 +25,7 @@ import HAI from './../../img/Paises/Holanda/Haia.jpg';
 const Family = () => {
     return (
         <>
-        <HeaderFamily />
+        <HeaderPages />
         <WelcomePages Title='Ola User, Seja bem vindo!' Description='As Melhores cidades para curtir e se divertir com a família.'/>
         <Scroll Title='Familiar Canada' IdSection='familycanada' Content={
             <>

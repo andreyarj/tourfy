@@ -1,6 +1,6 @@
 import React from 'react';
 
-import HeaderGastronomy from './HeaderGastronomy';
+import HeaderPages from '../../Comps/HeaderPages';
 import WelcomePages from './../../Comps/WelcomePages';
 import Scroll from '../../Comps/Scroll';
 import Package from '../../Comps/Package';
@@ -25,7 +25,7 @@ import MIS from './../../img/Paises/Hungria/Miskolc.jpg';
 const Gastronomy = () => {
     return (
         <>
-        <HeaderGastronomy />
+        <HeaderPages />
         <WelcomePages Title='Ola User, Seja bem vindo!' Description='As Melhores cidades para viajar e experimentar seus vinhos e gastronomias.'/>
         <Scroll Title='Gastronomia França' IdSection='gastronomyfrance' Content={
             <>

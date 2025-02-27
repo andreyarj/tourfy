@@ -1,6 +1,6 @@
 import React from 'react';
 
-import HeaderHistory from './HeaderHistory';
+import HeaderPages from '../../Comps/HeaderPages';
 import WelcomePages from '../../Comps/WelcomePages';
 import Scroll from '../../Comps/Scroll';
 import Package from '../../Comps/Package';
@@ -25,7 +25,7 @@ import LEI from './../../img/Paises/Alemanha/Leipzig.jpg';
 const History = () => {
     return (
         <>
-        <HeaderHistory />
+        <HeaderPages />
         <WelcomePages Title='Ola User, Seja bem vindo!' Description='As Melhores cidades para visitar culturas e historias do passado.'/>
         
         <Scroll Title='Familiar Japão' IdSection='historyjapan' Content={
